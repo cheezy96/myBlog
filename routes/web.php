@@ -10,4 +10,5 @@ Route::get('/', function () {
 use App\Http\Controllers\ImageUploadController;
 
 Route::get('image-form', [ImageUploadController::class, 'index']);
+Route::get('vue', [ImageUploadController::class, 'vuet']);
 Route::post('upload', [ImageUploadController::class, 'upload']);

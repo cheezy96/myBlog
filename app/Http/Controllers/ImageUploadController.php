@@ -12,6 +12,11 @@ class ImageUploadController extends Controller
         return view('image-form');
     }
 
+    public function vuet()
+    {
+        return view('image-form-vue');
+    }
+
     public function upload(Request $request)
     {
         
